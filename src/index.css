@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* leaflet styling */
+.leaflet-container {
+    height: 68.7vh;
+    width: 57.5vw;
+    margin: 5rem auto;
+}
