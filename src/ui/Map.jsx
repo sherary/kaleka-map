@@ -36,11 +36,11 @@ const MapComponent = () => {
     }
 
     return (
-        <>
+        <div className="max-w-screen-2xl xl:max-w-screen-xl lg:max-h-screen-lg md:max-w-screen-md mx-auto">
             {
                 coordinates ? renderMap(coordinates) : renderError()
             }
-        </>
+        </div>
     );
 }
 

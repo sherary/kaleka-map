@@ -6,7 +6,7 @@ import Layout from './ui/Layout';
 function App() {
   return (
     <BrowserRouter>
-        <div class="container-fluid mx-auto">
+        <div className="container-fluid mx-auto max-w-screen-2xl">
             <Layout />
             <Routes>
                 <Route path='/' element={<Home />} />

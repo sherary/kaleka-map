@@ -10,9 +10,48 @@
     padding: 0;
 }
 
-/* leaflet styling */
+/* leaflet styling start */
 .leaflet-container {
     height: 68.7vh;
     width: 57.5vw;
     margin: 5rem auto;
 }
+
+/* leaflet styling end */
+
+
+/* media query start */
+
+@media screen and (max-height: 1280px) {
+    .leaflet-container {
+        margin: 4rem auto;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .leaflet-container {
+        height: 46vh;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .kaleka-logo {
+        width: 42vw;
+        height: 12vh;
+    }
+
+    .links {
+        font-size: 3vw;
+        padding: 1rem;
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .kaleka-logo {
+        width: 40vw;
+        height: 10vh;
+    }
+}
+
+/* media query end */
